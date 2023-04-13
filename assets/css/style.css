@@ -1,0 +1,95 @@
+header {
+    width: 100%;
+    height: 60px;
+    background-color: #3C4444;
+    padding: 20px;
+}
+
+.logo {
+    width: 170px;
+    height: 60px;
+    margin: 10px;
+}
+
+.logo img {
+    width: 100%;
+    height: 100%;
+}
+
+/* .container {
+    display: flex;
+} */
+
+.left,
+.right {
+    flex: 1;
+    height: 600px;
+    background-color: #ffffff;
+    border: 10px solid #ffffff;
+}
+
+.right img {
+    position: absolute;
+    width: 700px;
+    height: 350px;
+    left: 680px;
+    top: 150px;
+}
+
+.left {
+    position: absolute;
+    width: 600px;
+    height: 350px;
+    left: 100px;
+    top: 150px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 77px;
+    color: #000000;
+}
+
+.iniciar {
+    position: absolute;
+    width: 50px;
+    height: 20px;
+    left: 600px;
+    top: 520px;
+    display: inline-block;
+    padding: 8px 16px;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#loginModal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 4px;
+}
+
+#loginModal form {
+    background-color: #fefefe;
+    margin: 10% auto;
+    padding: 40px;
+    border: 1px solid #3C4444;
+    width: 30%;
+    border-radius: 10px;
+}
+
+.circulo_inputs {
+    height: 25px;
+    width: 25px;
+    right: 40px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+}
